@@ -56,3 +56,42 @@ export const servicesData = [
         bgColor: "orange-500",
     },
 ];
+
+// timme line data
+export const timelineData = [
+    {
+        time: "Week 1",
+        title: "Grand Kick-off & Orientation",
+        description:
+            "Welcome aboard! 🚀 You'll meet your instructors, mentors, and classmates. We'll outline the complete course structure and set you up for success.",
+        color: "primary",
+    },
+    {
+        time: "Weekly",
+        title: "Project Milestones",
+        description:
+            "Apply what you learn each week with hands-on projects. These milestones ensure you're mastering concepts by building real-world applications.",
+        color: "secondary",
+    },
+    {
+        time: "24/7",
+        title: "Dedicated Support System",
+        description:
+            "Never get stuck. Our 24/7 support system includes live Q&A sessions, a dedicated Discord channel, and one-on-one doubt-clearing sessions.",
+        color: "accent",
+    },
+    {
+        time: "Final Phase",
+        title: "Specialized Career Care",
+        description:
+            "As you near graduation, our career services team provides resume building workshops, portfolio reviews, and mock interviews with industry experts.",
+        color: "info",
+    },
+    {
+        time: "Post-Graduation",
+        title: "Guaranteed Job Placement",
+        description:
+            "Your success is our success. We connect you with our network of hiring partners and provide placement assistance until you land your dream job.",
+        color: "success",
+    },
+];
