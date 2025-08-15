@@ -35,11 +35,11 @@ const CourseSection = () => {
 
       <Link
         to={"/course-list"}
-        onClick={() => window.scrollTo(0, 0)} // Use window.scrollTo for clarity
+         // Use window.scrollTo for clarity
         className="inline-block px-12 py-4 text-lg font-semibold text-blue-700 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
         aria-label="View all available courses"
       >
-        <div className="text-center mt-12">Explore All Courses</div>
+        <div className="text-center">Explore All Courses</div>
       </Link>
     </div>
   );
