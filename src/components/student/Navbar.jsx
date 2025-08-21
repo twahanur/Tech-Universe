@@ -86,6 +86,12 @@ const Navbar = () => {
 
       {/* Desktop View */}
       <div className="hidden md:flex items-center gap-5 text-gray-500">
+        <Link to="/course-list" className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">
+          Course List
+        </Link>
+        <Link to="/about-us" className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">
+          About Us
+        </Link>
         {user && (
           <div className="flex items-center gap-5">
             <button 
